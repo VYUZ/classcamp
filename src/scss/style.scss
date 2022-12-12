@@ -1,0 +1,36 @@
+@use "sass:math";
+
+@import "block/reset";
+@import "block/vars";
+
+/* общие стили */
+
+
+/* HEADER START */
+// @import "block/header"; /* HEADER END */
+
+/* MAIN START */
+@import "block/main"; /* MAIN END */
+
+/* FOOTER START */
+@import "block/footer"; /* FOOTER END */
+
+
+
+/* @media */
+
+/* Laptops */
+@media only screen and (max-width: 1200px) {
+}
+/* Tablets, Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+}
+/* Phones */
+@media only screen and (max-width: 575px) {
+}
+/* Extra Small Devices, old Phones */
+@media only screen and (max-width: 480px) {
+}

@@ -1,0 +1,16 @@
+/* FOOTER START */
+.footer {
+  height: 65px;
+  background: center center / cover no-repeat scroll $bg-grey;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__text {
+  font-size: 12px;
+  line-height: 24px;
+  color: #445162;
+  text-align: center;
+}
+/* FOOTER END */
