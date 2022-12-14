@@ -1,14 +1,17 @@
-Hello, world
 <header class="header">
-    <div class="container">
-        <nav class="header__nav">
-            <ul class="header__list">
-                <li class="header__link"><a href="#!" class="header__link"></a></li>
-                <li class="header__link"><a href="#!" class="header__link"></a></li>
-                <li class="header__link"><a href="#!" class="header__link"></a></li>
-                <li class="header__link"><a href="#!" class="header__link"></a></li>
-                <li class="header__link"><a href="#!" class="header__link"></a></li>
-            </ul>
-        </nav>
-    </div>
+  <div class="header__container container">
+    <nav class="header__nav">
+      <a data-goto=".promo" href="#!" class="header__logo-link"
+        ><img src="@img/svg/Frame.svg" alt="" class="header__logo-img"
+      /></a>
+      <ul class="header__list">
+        <li class="header__item"><a data-goto=".featured" href="#" class="header__link">Featured</a></li>
+        <li class="header__item"><a data-goto=".find" href="#!" class="header__link">Find a course</a></li>
+        <li class="header__item"><a data-goto=".coaches" href="#!" class="header__link">Coaches</a></li>
+        <li class="header__item header__item-right"><a href="#!" class="header__link">Sign In</a></li>
+        <li class="header__item"><a data-goto=".create" href="#!" class="header__link">Create a course</a></li>
+      </ul>
+      <div class="header__burger"><span>burger</span></div>
+    </nav>
+  </div>
 </header>

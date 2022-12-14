@@ -68,11 +68,12 @@ ol[class] {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 /* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
 a:not([class]) {
-  text-decoration-skip-ink: auto;
+  text-decoration-skip-ink: auto;  
 }
 
 /* Упрощаем работу с изображениями */

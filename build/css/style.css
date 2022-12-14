@@ -70,6 +70,7 @@ ol[class] {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 /* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
@@ -115,6 +116,48 @@ table {
 /*Variables*/
 /* общие стили */
 /* HEADER START */
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  background: #ffffff;
+  padding: 34px 0;
+  border: 1px solid olive;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.header__list {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex: 0 1 80%;
+  gap: 50px;
+  border: 1px solid maroon;
+}
+
+.header__item {
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.4199999869px;
+  color: #000;
+}
+.header__item-right {
+  margin-left: auto;
+}
+
+.header__burger {
+  display: none;
+}
+
+/* HEADER END */
 /* MAIN START */
 /* COMMON STYLE START */
 body {
